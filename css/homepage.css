@@ -28,7 +28,7 @@ input[type="password"] {
 
 .login-submit {
   background-color: #7ed957;
-  color: white;
+  color: black;
   padding: 16px 20px;
   border: none;
   cursor: pointer;
@@ -38,4 +38,51 @@ input[type="password"] {
 
 .login-submit:hover {
   opacity: 1;
+}
+
+#select-field {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: #7ed957;
+  opacity: 0.9;
+  color: black;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 3px;
+}
+
+#select-field:hover {
+  opacity: 1;
+}
+
+#select-field img {
+  width: 12px;
+}
+
+#list {
+  width: 100%;
+  overflow: hidden;
+}
+
+.option {
+  width: 100%;
+  list-style: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  position: relative;
+  opacity: 0.9;
+  background-color: #7ed957;
+  padding: 15px 0 15px 15px;
+}
+
+.option:hover {
+  opacity: 1;
+}
+
+.hide {
+  visibility: hidden;
 }

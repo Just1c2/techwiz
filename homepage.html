@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="./css/homepage.css" />
     <link rel="stylesheet" href="./css/boostrap/bootstrap.min.css" />
     <script src="./js/boostrap/bootstrap.bundle.min.js"></script>
+    <script src="./js/dropdown-menu.js"></script>
   </head>
   <body>
     <header>
@@ -45,10 +46,22 @@
             <input type="text" placeholder="Enter username ..." name="username" required><br>
             <label for="password"><b>Password</b></label><br>
             <input type="password" placeholder="Enter password ..." name="password" required><br>
-            <button type="submit" class="login-submit">Login</button><br>
+            <button type="submit" class="login-submit">Login</button>
+            <div class="selector">
+              <div id="select-field">
+                <p style="padding-top: 15px;" id="select-text">Select Role</p>
+                <img src="./img/arrow.png" />
+              </div>
+              <ul id="list" class="hide">
+                <li class="option"><p>Student</p></li>
+                <li class="option"><p>Teacher</p></li>
+                <li class="option"><p>Parents</p></li>
+              </ul>
+            </div>
           </form>
         </div>
       </section>
     </main>
+    <script src="./js/dropdown-menu.js"></script>
   </body>
 </html>
